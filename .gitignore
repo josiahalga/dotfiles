@@ -4,6 +4,7 @@
 .bash_history
 .git
 .ipython
+.config/gspread/
 .jupyter
 .lesshst
 .local
