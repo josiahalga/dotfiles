@@ -1,0 +1,6 @@
+*April 04, 2023
+End of the Day Report
+
+- Learn Cypress
+- Automated Symmtery Electronics using Cypress
+
