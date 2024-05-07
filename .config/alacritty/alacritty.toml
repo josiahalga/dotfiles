@@ -1,0 +1,28 @@
+import = [
+  #"~/.config/alacritty/catppuccin-latte.toml"
+  # "~/.config/alacritty/catppuccin-frappe.toml"
+  # "~/.config/alacritty/catppuccin-macchiato.toml"
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[shell]
+program = "/bin/fish"
+
+[window]
+padding = {x=1,y=5}
+dynamic_padding = true
+opacity = 0.60
+blur = true
+
+[font]
+normal = { family = "JetBrainsMonoNerdFont", style = "Bold" }
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+blink_interval = 500
+
+[mouse]
+hide_when_typing = true

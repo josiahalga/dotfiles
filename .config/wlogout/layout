@@ -1,0 +1,36 @@
+{
+    "label" : "lock",
+    "action" : "hyprlock",
+    "text" : "Lock",
+    "keybind" : "l"
+}
+{
+    "label" : "logout",
+    "action" : "$HOME/.scripts/logout.sh",
+    "text" : "Logout",
+    "keybind" : "e"
+}
+{
+    "label" : "shutdown",
+    "action" : "$HOME/.scripts/shutdown.sh",
+    "text" : "Shutdown",
+    "keybind" : "s"
+}
+{
+    "label" : "reboot",
+    "action" : "$HOME/.scripts/reboot.sh",
+    "text" : "Reboot",
+    "keybind" : "r"
+}
+{
+	"label": "shutdown_60",
+	"action": "shutdown -P 60",
+	"text": "Shutdown (60m)"
+	"keybind": "d"
+}
+{
+	"label": "suspend",
+	"action": "systemct suspend",
+	"text": "Suspend"
+	"keybind": "v"
+}

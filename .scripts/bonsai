@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cbonsai -l -b 4 -i -t 30
