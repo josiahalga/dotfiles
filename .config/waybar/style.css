@@ -1,4 +1,4 @@
-@import "themes/latte.css";
+@import "themes/frappe.css";
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */
@@ -108,17 +108,17 @@ button:hover {
 
 #window,
 #custom-apps {
-	color: @base;
+	color: @text;
 	background: transparent;
 	margin: 10px 3px 3px 3px;
   	padding: 1px 10px;
 	border-radius: 16px;
-  	border: solid 2px @base;
+  	border: solid 2px @text;
   	font-weight: bold;
 }
 
 #custom-power {
-	color: @base;
+	color: @text;
 	background: transparent;
 	margin: 13px 3px 3px 15px;
   	padding: 3px 3px;
@@ -127,7 +127,7 @@ button:hover {
 }
 
 #custom-packupdate {
-      	color: @base;
+      	color: @text;
 	background: transparent;
 	margin: 10px 3px 3px 3px;
   	padding: 0px 0px;
@@ -141,23 +141,23 @@ button:hover {
 }
 
 #clock {
-      	color: @base;
+      	color: @text;
 	background: transparent;
 	margin: 10px 15px 3px 3px;
   	padding: 3px 10px;
 	border-radius: 16px;
-  	border: solid 2px @base;
+  	border: solid 2px @text;
   	font-weight: bold;
 }
 
 #battery {
-      	color: @text;
+  color: @text;
 	background: @base;
 	margin: 10px 3px 3px 3px;
-  	padding: 3px 10px;
+  padding: 3px 10px;
 	border-radius: 16px;
-  	border: solid 0px #f4d9e1;
-  	font-weight: bold;
+  border: solid 0px #f4d9e1;
+  font-weight: bold;
 }
 
 #battery.charging, #battery.plugged {
@@ -213,7 +213,7 @@ label:focus {
 }
 
 #cpu {
-      	color: @base;
+      	color: @text;
 	background: transparent;
 	margin: 10px 3px 3px 3px;
   	padding: 0px 0px;
@@ -221,7 +221,7 @@ label:focus {
 }
 
 #memory {
-      	color: @base;
+      	color: @text;
 	background: transparent;
 	margin: 10px 3px 3px 3px;
   	padding: 0px 0px;
@@ -284,10 +284,11 @@ label:focus {
 }
 
 #custom-media.custom-spotify {
-    background-color: #66cc99;
+    background-color: #1DB954;
 }
 
 #custom-media.custom-vlc {
+  color: #ffffff;
     background-color: #ffa000;
 }
 

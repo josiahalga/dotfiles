@@ -7,3 +7,4 @@ pokemon-colorscripts -r
 
 alias vim="nvim"
 alias vi="vim"
+alias neovim="neovide"
