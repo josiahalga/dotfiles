@@ -442,6 +442,10 @@
     appname = changevolume
     history_ignore = yes
 
+[changevolume]
+  appname = thunar-volman
+  new_icon = none
+
 [spotify]
     appname = Spotify
     foreground = "#FFFFFF"
