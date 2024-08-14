@@ -201,7 +201,7 @@
         "format-ethernet": " {bandwidthDownBytes}",
         "tooltip-format": "{essid} {ipaddr}",
         "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
+        "format-disconnected": "⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "pulseaudio": {
