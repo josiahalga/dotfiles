@@ -1,11 +1,5 @@
-import = [
-  #"~/.config/alacritty/catppuccin-latte.toml"
-  # "~/.config/alacritty/catppuccin-frappe.toml"
-  # "~/.config/alacritty/catppuccin-macchiato.toml"
-  "~/.config/alacritty/catppuccin-mocha.toml"
-]
 
-[shell]
+[terminal.shell]
 program = "/bin/fish"
 
 [window]
@@ -26,3 +20,13 @@ blink_interval = 500
 
 [mouse]
 hide_when_typing = true
+
+[general]
+import = [
+  #"~/.config/alacritty/catppuccin-latte.toml"
+  # "~/.config/alacritty/catppuccin-frappe.toml"
+  # "~/.config/alacritty/catppuccin-macchiato.toml"
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[terminal]
